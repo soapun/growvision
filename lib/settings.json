@@ -1,0 +1,111 @@
+{
+    "main_config": {
+        "output_dir" : "output"
+    },
+    "calibration_config" : {
+        "dir_path" : "calibration_images"        
+    },
+
+    "green_pixel_extractor_config" : {
+        "checkpoint_path" : "checkpoints/unet.pt",
+        "expected_height" : 384,
+        "expected_width" : 384,
+        "device" : "cpu" 
+    },
+
+    "cut_out_area_config" : {
+        "upper_left" : [83,329],
+        "h" : 570,
+        "w" : 1070,
+        "theta" : 3
+    },
+
+    "cut_into_pieces_config" : {
+        "horizontal_lines" : [180, 383],
+        "vertical_lines" : [230, 461, 660, 873],
+
+        "pot_coords_list" : [
+            {
+                "x" : 100,
+                "y" : 80,
+                "r" : 90
+            },
+            {
+                "x" : 112,
+                "y" : 279,
+                "r" : 90
+            },
+            {
+                "x" : 84,
+                "y" : 480,
+                "r" : 90
+            },
+            {
+                "x" : 364,
+                "y" : 94,
+                "r" : 90
+            },
+            {
+                "x" : 364,
+                "y" : 292,
+                "r" : 90
+            },
+            {
+                "x" : 350,
+                "y" : 467,
+                "r" : 90
+            },
+            {
+                "x" : 563,
+                "y" : 96,
+                "r" : 90
+            },
+            {
+                "x" : 560,
+                "y" : 286,
+                "r" : 90
+            },
+            {
+                "x" : 556,
+                "y" : 469,
+                "r" : 90
+            },
+            {
+                "x" : 759,
+                "y" : 98,
+                "r" : 90
+            },
+            {
+                "x" : 759,
+                "y" : 262,
+                "r" : 90
+            },
+            {
+                "x" : 757,
+                "y" : 469,
+                "r" : 90
+            },
+            {
+                "x" : 985,
+                "y" : 107,
+                "r" : 90
+            },
+            {
+                "x" : 990,
+                "y" : 286,
+                "r" : 90
+            },
+            {
+                "x" : 983,
+                "y" : 471,
+                "r" : 90
+            }
+        ]
+    },
+
+    "image_tools_config" : {
+        "isNightThreshold" : 140,
+        "isGenBorderThreshold" : -60,
+        "curMseThreshold" : 40
+    }
+}

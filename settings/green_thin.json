@@ -1,0 +1,37 @@
+{
+    "save_path" : "output\\svdd.pt",
+    "train_configs" : [
+        {
+            "path" : "datasets\\green_thin\\0",
+            "window_len" : 8,
+            "stride" : 5
+        },
+        {
+            "path" : "datasets\\green_thin\\2",
+            "window_len" : 8,
+            "stride" : 5
+        },
+        {
+            "path" : "datasets\\green_thin\\3",
+            "window_len" : 8,
+            "stride" : 5
+        },
+        {
+            "path" : "datasets\\green_thin\\5",
+            "window_len" : 8,
+            "stride" : 5
+        }
+    ],
+    "test_configs" : [
+        {
+            "path" : "datasets\\green_thin\\1",
+            "window_len" : 8,
+            "stride" : 5
+        },
+        {
+            "path" : "datasets\\green_thin\\6",
+            "window_len" : 8,
+            "stride" : 5
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "save_path" : "output\\svdd.pt",
+    "train_configs" : [
+        {
+            "path" : "datasets\\violet\\0",
+            "window_len" : 8,
+            "stride" : 5
+        },
+        {
+            "path" : "datasets\\violet\\1",
+            "window_len" : 8,
+            "stride" : 5
+        },
+        {
+            "path" : "datasets\\violet\\2",
+            "window_len" : 8,
+            "stride" : 5
+        },
+        {
+            "path" : "datasets\\violet\\3",
+            "window_len" : 8,
+            "stride" : 5
+        },
+        {
+            "path" : "datasets\\violet\\4",
+            "window_len" : 8,
+            "stride" : 5
+        },
+        {
+            "path" : "datasets\\violet\\8",
+            "window_len" : 8,
+            "stride" : 5
+        },
+        {
+            "path" : "datasets\\violet\\11",
+            "window_len" : 8,
+            "stride" : 5
+        },
+        {
+            "path" : "datasets\\violet\\13",
+            "window_len" : 8,
+            "stride" : 5
+        },
+        {
+            "path" : "datasets\\violet\\14",
+            "window_len" : 8,
+            "stride" : 5
+        }
+    ],
+    "test_configs" : [
+        {
+            "path" : "datasets\\violet\\3",
+            "window_len" : 8,
+            "stride" : 5
+        },
+        {
+            "path" : "datasets\\violet\\7",
+            "window_len" : 8,
+            "stride" : 5
+        },
+        {
+            "path" : "datasets\\violet\\12",
+            "window_len" : 8,
+            "stride" : 5
+        }
+    ]
+}
